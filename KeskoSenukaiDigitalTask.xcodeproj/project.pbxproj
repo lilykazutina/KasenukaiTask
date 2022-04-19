@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451F526E280E35EB0007CB13 /* ListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F526D280E35EB0007CB13 /* ListDTO.swift */; };
+		451F5270280E5E550007CB13 /* ControllerIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F526F280E5E550007CB13 /* ControllerIdentifiers.swift */; };
+		451F5274280E60A30007CB13 /* BookTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F5273280E60A30007CB13 /* BookTableViewCellModel.swift */; };
+		451F5276280E60DE0007CB13 /* BookCollectionViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F5275280E60DE0007CB13 /* BookCollectionViewCellModel.swift */; };
+		451F527A280E85590007CB13 /* BooksTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F5279280E85590007CB13 /* BooksTableViewDataSource.swift */; };
+		451F527C280E95920007CB13 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451F527B280E95920007CB13 /* Alert.swift */; };
+		457390C2280C1135005CC5B2 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457390C1280C1135005CC5B2 /* BookService.swift */; };
+		457390C4280CE3EF005CC5B2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457390C3280CE3EE005CC5B2 /* APIError.swift */; };
+		457390C6280D048A005CC5B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457390C5280D048A005CC5B2 /* Extensions.swift */; };
+		45F1A2D9280B773100EE5FC4 /* BookDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1A2D8280B773100EE5FC4 /* BookDetailsCoordinator.swift */; };
+		45F1A2DB280B834500EE5FC4 /* BookDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1A2DA280B834500EE5FC4 /* BookDetailsViewModel.swift */; };
+		4A7A4E1B280499D200997126 /* ListsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E1A280499D200997126 /* ListsTableViewDataSource.swift */; };
+		4A7A4E1E2804A21700997126 /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E1D2804A21700997126 /* Titles.swift */; };
+		4A7A4E202804A67B00997126 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E1F2804A67B00997126 /* BooksViewModel.swift */; };
+		4A7A4E232804A77400997126 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E222804A77400997126 /* Coordinator.swift */; };
+		4A7A4E252804A94200997126 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E242804A94200997126 /* ApplicationCoordinator.swift */; };
+		4A7A4E292804AC9000997126 /* BooksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E282804AC9000997126 /* BooksCoordinator.swift */; };
+		4A7A4E2B2804B68C00997126 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A4E2A2804B68C00997126 /* BookTableViewCell.swift */; };
+		4AE0C279280349660016308B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C278280349660016308B /* AppDelegate.swift */; };
+		4AE0C27D280349660016308B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C27C280349660016308B /* MainViewController.swift */; };
+		4AE0C280280349660016308B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0C27E280349660016308B /* Main.storyboard */; };
+		4AE0C283280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C281280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodeld */; };
+		4AE0C2852803496C0016308B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0C2842803496C0016308B /* Assets.xcassets */; };
+		4AE0C2882803496C0016308B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0C2862803496C0016308B /* LaunchScreen.storyboard */; };
+		4AE0C2932803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2922803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift */; };
+		4AE0C29D2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C29C2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift */; };
+		4AE0C29F2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C29E2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift */; };
+		4AE0C2AD28034E340016308B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2AC28034E340016308B /* ListTableViewCell.swift */; };
+		4AE0C2AF280351A10016308B /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2AE280351A10016308B /* BookCollectionViewCell.swift */; };
+		4AE0C2B3280352CA0016308B /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2B2280352CA0016308B /* BooksViewController.swift */; };
+		4AE0C2B5280352D80016308B /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2B4280352D80016308B /* BookDetailsViewController.swift */; };
+		4AE0C2B8280355560016308B /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2B7280355560016308B /* CellIdentifiers.swift */; };
+		4AE0C2BB280359DF0016308B /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2BA280359DF0016308B /* Endpoints.swift */; };
+		4AE0C2BD28035B0B0016308B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2BC28035B0B0016308B /* API.swift */; };
+		4AE0C2C028035BB20016308B /* BooksLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2BF28035BB20016308B /* BooksLists.swift */; };
+		4AE0C2C228035BF40016308B /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2C128035BF40016308B /* Books.swift */; };
+		4AE0C2C428035C550016308B /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2C328035C550016308B /* BookDetails.swift */; };
+		4AE0C2C628035E620016308B /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0C2C528035E620016308B /* ListsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AE0C28F2803496C0016308B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE0C26D280349660016308B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE0C274280349660016308B;
+			remoteInfo = KeskoSenukaiDigitalTask;
+		};
+		4AE0C2992803496C0016308B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AE0C26D280349660016308B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AE0C274280349660016308B;
+			remoteInfo = KeskoSenukaiDigitalTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		451F526D280E35EB0007CB13 /* ListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDTO.swift; sourceTree = "<group>"; };
+		451F526F280E5E550007CB13 /* ControllerIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerIdentifiers.swift; sourceTree = "<group>"; };
+		451F5273280E60A30007CB13 /* BookTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCellModel.swift; sourceTree = "<group>"; };
+		451F5275280E60DE0007CB13 /* BookCollectionViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCellModel.swift; sourceTree = "<group>"; };
+		451F5279280E85590007CB13 /* BooksTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksTableViewDataSource.swift; sourceTree = "<group>"; };
+		451F527B280E95920007CB13 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		457390C1280C1135005CC5B2 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		457390C3280CE3EE005CC5B2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		457390C5280D048A005CC5B2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		45F1A2D8280B773100EE5FC4 /* BookDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsCoordinator.swift; sourceTree = "<group>"; };
+		45F1A2DA280B834500EE5FC4 /* BookDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewModel.swift; sourceTree = "<group>"; };
+		4A7A4E1A280499D200997126 /* ListsTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsTableViewDataSource.swift; sourceTree = "<group>"; };
+		4A7A4E1D2804A21700997126 /* Titles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		4A7A4E1F2804A67B00997126 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		4A7A4E222804A77400997126 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4A7A4E242804A94200997126 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		4A7A4E282804AC9000997126 /* BooksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCoordinator.swift; sourceTree = "<group>"; };
+		4A7A4E2A2804B68C00997126 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		4AE0C275280349660016308B /* KeskoSenukaiDigitalTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeskoSenukaiDigitalTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE0C278280349660016308B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AE0C27C280349660016308B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4AE0C27F280349660016308B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AE0C282280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeskoSenukaiDigitalTask.xcdatamodel; sourceTree = "<group>"; };
+		4AE0C2842803496C0016308B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AE0C2872803496C0016308B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AE0C2892803496C0016308B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE0C28E2803496C0016308B /* KeskoSenukaiDigitalTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeskoSenukaiDigitalTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE0C2922803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskTests.swift; sourceTree = "<group>"; };
+		4AE0C2982803496C0016308B /* KeskoSenukaiDigitalTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeskoSenukaiDigitalTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE0C29C2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskUITests.swift; sourceTree = "<group>"; };
+		4AE0C29E2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AE0C2AC28034E340016308B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		4AE0C2AE280351A10016308B /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AE0C2B2280352CA0016308B /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		4AE0C2B4280352D80016308B /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		4AE0C2B7280355560016308B /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
+		4AE0C2BA280359DF0016308B /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		4AE0C2BC28035B0B0016308B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4AE0C2BF28035BB20016308B /* BooksLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksLists.swift; sourceTree = "<group>"; };
+		4AE0C2C128035BF40016308B /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		4AE0C2C328035C550016308B /* BookDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		4AE0C2C528035E620016308B /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AE0C272280349660016308B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C28B2803496C0016308B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C2952803496C0016308B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451F526C280E35D20007CB13 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				451F526D280E35EB0007CB13 /* ListDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		451F5272280E60810007CB13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				451F5273280E60A30007CB13 /* BookTableViewCellModel.swift */,
+				451F5275280E60DE0007CB13 /* BookCollectionViewCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A7A4E212804A76400997126 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A4E222804A77400997126 /* Coordinator.swift */,
+				4A7A4E242804A94200997126 /* ApplicationCoordinator.swift */,
+				4A7A4E282804AC9000997126 /* BooksCoordinator.swift */,
+				45F1A2D8280B773100EE5FC4 /* BookDetailsCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		4A7A4E2C2804B80100997126 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				451F5279280E85590007CB13 /* BooksTableViewDataSource.swift */,
+				4A7A4E1A280499D200997126 /* ListsTableViewDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		4AE0C26C280349660016308B = {
+			isa = PBXGroup;
+			children = (
+				4AE0C277280349660016308B /* KeskoSenukaiDigitalTask */,
+				4AE0C2912803496C0016308B /* KeskoSenukaiDigitalTaskTests */,
+				4AE0C29B2803496C0016308B /* KeskoSenukaiDigitalTaskUITests */,
+				4AE0C276280349660016308B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AE0C276280349660016308B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C275280349660016308B /* KeskoSenukaiDigitalTask.app */,
+				4AE0C28E2803496C0016308B /* KeskoSenukaiDigitalTaskTests.xctest */,
+				4AE0C2982803496C0016308B /* KeskoSenukaiDigitalTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AE0C277280349660016308B /* KeskoSenukaiDigitalTask */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A4E2C2804B80100997126 /* DataSources */,
+				4A7A4E212804A76400997126 /* Coordinators */,
+				4AE0C2C728035EAD0016308B /* Models */,
+				4AE0C2BE28035B8F0016308B /* ViewModels */,
+				4AE0C2B9280358FC0016308B /* API */,
+				4AE0C2B62803553C0016308B /* Constants */,
+				4AE0C2B1280352A00016308B /* Controllers */,
+				4AE0C2AB28034E110016308B /* Cells */,
+				4AE0C278280349660016308B /* AppDelegate.swift */,
+				4AE0C27E280349660016308B /* Main.storyboard */,
+				4AE0C2842803496C0016308B /* Assets.xcassets */,
+				4AE0C2862803496C0016308B /* LaunchScreen.storyboard */,
+				4AE0C2892803496C0016308B /* Info.plist */,
+				4AE0C281280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodeld */,
+				457390C5280D048A005CC5B2 /* Extensions.swift */,
+			);
+			path = KeskoSenukaiDigitalTask;
+			sourceTree = "<group>";
+		};
+		4AE0C2912803496C0016308B /* KeskoSenukaiDigitalTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C2922803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift */,
+			);
+			path = KeskoSenukaiDigitalTaskTests;
+			sourceTree = "<group>";
+		};
+		4AE0C29B2803496C0016308B /* KeskoSenukaiDigitalTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C29C2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift */,
+				4AE0C29E2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift */,
+			);
+			path = KeskoSenukaiDigitalTaskUITests;
+			sourceTree = "<group>";
+		};
+		4AE0C2AB28034E110016308B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				451F5272280E60810007CB13 /* Models */,
+				4AE0C2AC28034E340016308B /* ListTableViewCell.swift */,
+				4AE0C2AE280351A10016308B /* BookCollectionViewCell.swift */,
+				4A7A4E2A2804B68C00997126 /* BookTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4AE0C2B1280352A00016308B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C27C280349660016308B /* MainViewController.swift */,
+				4AE0C2B2280352CA0016308B /* BooksViewController.swift */,
+				4AE0C2B4280352D80016308B /* BookDetailsViewController.swift */,
+				451F527B280E95920007CB13 /* Alert.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AE0C2B62803553C0016308B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				451F526F280E5E550007CB13 /* ControllerIdentifiers.swift */,
+				4AE0C2B7280355560016308B /* CellIdentifiers.swift */,
+				4AE0C2BA280359DF0016308B /* Endpoints.swift */,
+				4A7A4E1D2804A21700997126 /* Titles.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4AE0C2B9280358FC0016308B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				451F526C280E35D20007CB13 /* DTO */,
+				4AE0C2BC28035B0B0016308B /* API.swift */,
+				457390C1280C1135005CC5B2 /* BookService.swift */,
+				457390C3280CE3EE005CC5B2 /* APIError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4AE0C2BE28035B8F0016308B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C2C528035E620016308B /* ListsViewModel.swift */,
+				4A7A4E1F2804A67B00997126 /* BooksViewModel.swift */,
+				45F1A2DA280B834500EE5FC4 /* BookDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4AE0C2C728035EAD0016308B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0C2C328035C550016308B /* BookDetails.swift */,
+				4AE0C2C128035BF40016308B /* Books.swift */,
+				4AE0C2BF28035BB20016308B /* BooksLists.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AE0C274280349660016308B /* KeskoSenukaiDigitalTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE0C2A22803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTask" */;
+			buildPhases = (
+				4AE0C271280349660016308B /* Sources */,
+				4AE0C272280349660016308B /* Frameworks */,
+				4AE0C273280349660016308B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeskoSenukaiDigitalTask;
+			productName = KeskoSenukaiDigitalTask;
+			productReference = 4AE0C275280349660016308B /* KeskoSenukaiDigitalTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AE0C28D2803496C0016308B /* KeskoSenukaiDigitalTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE0C2A52803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTaskTests" */;
+			buildPhases = (
+				4AE0C28A2803496C0016308B /* Sources */,
+				4AE0C28B2803496C0016308B /* Frameworks */,
+				4AE0C28C2803496C0016308B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE0C2902803496C0016308B /* PBXTargetDependency */,
+			);
+			name = KeskoSenukaiDigitalTaskTests;
+			productName = KeskoSenukaiDigitalTaskTests;
+			productReference = 4AE0C28E2803496C0016308B /* KeskoSenukaiDigitalTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AE0C2972803496C0016308B /* KeskoSenukaiDigitalTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE0C2A82803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTaskUITests" */;
+			buildPhases = (
+				4AE0C2942803496C0016308B /* Sources */,
+				4AE0C2952803496C0016308B /* Frameworks */,
+				4AE0C2962803496C0016308B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE0C29A2803496C0016308B /* PBXTargetDependency */,
+			);
+			name = KeskoSenukaiDigitalTaskUITests;
+			productName = KeskoSenukaiDigitalTaskUITests;
+			productReference = 4AE0C2982803496C0016308B /* KeskoSenukaiDigitalTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AE0C26D280349660016308B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4AE0C274280349660016308B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4AE0C28D2803496C0016308B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4AE0C274280349660016308B;
+					};
+					4AE0C2972803496C0016308B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4AE0C274280349660016308B;
+					};
+				};
+			};
+			buildConfigurationList = 4AE0C270280349660016308B /* Build configuration list for PBXProject "KeskoSenukaiDigitalTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AE0C26C280349660016308B;
+			productRefGroup = 4AE0C276280349660016308B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AE0C274280349660016308B /* KeskoSenukaiDigitalTask */,
+				4AE0C28D2803496C0016308B /* KeskoSenukaiDigitalTaskTests */,
+				4AE0C2972803496C0016308B /* KeskoSenukaiDigitalTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AE0C273280349660016308B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE0C2882803496C0016308B /* LaunchScreen.storyboard in Resources */,
+				4AE0C2852803496C0016308B /* Assets.xcassets in Resources */,
+				4AE0C280280349660016308B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C28C2803496C0016308B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C2962803496C0016308B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AE0C271280349660016308B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE0C2BD28035B0B0016308B /* API.swift in Sources */,
+				4AE0C2C228035BF40016308B /* Books.swift in Sources */,
+				4AE0C2C628035E620016308B /* ListsViewModel.swift in Sources */,
+				4AE0C27D280349660016308B /* MainViewController.swift in Sources */,
+				4AE0C279280349660016308B /* AppDelegate.swift in Sources */,
+				451F527A280E85590007CB13 /* BooksTableViewDataSource.swift in Sources */,
+				451F5276280E60DE0007CB13 /* BookCollectionViewCellModel.swift in Sources */,
+				451F5274280E60A30007CB13 /* BookTableViewCellModel.swift in Sources */,
+				4AE0C283280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodeld in Sources */,
+				4A7A4E232804A77400997126 /* Coordinator.swift in Sources */,
+				4A7A4E1B280499D200997126 /* ListsTableViewDataSource.swift in Sources */,
+				451F5270280E5E550007CB13 /* ControllerIdentifiers.swift in Sources */,
+				457390C4280CE3EF005CC5B2 /* APIError.swift in Sources */,
+				4A7A4E202804A67B00997126 /* BooksViewModel.swift in Sources */,
+				4AE0C2B8280355560016308B /* CellIdentifiers.swift in Sources */,
+				4A7A4E292804AC9000997126 /* BooksCoordinator.swift in Sources */,
+				4AE0C2C028035BB20016308B /* BooksLists.swift in Sources */,
+				4AE0C2BB280359DF0016308B /* Endpoints.swift in Sources */,
+				4A7A4E2B2804B68C00997126 /* BookTableViewCell.swift in Sources */,
+				457390C2280C1135005CC5B2 /* BookService.swift in Sources */,
+				4AE0C2AF280351A10016308B /* BookCollectionViewCell.swift in Sources */,
+				451F526E280E35EB0007CB13 /* ListDTO.swift in Sources */,
+				4A7A4E1E2804A21700997126 /* Titles.swift in Sources */,
+				4A7A4E252804A94200997126 /* ApplicationCoordinator.swift in Sources */,
+				4AE0C2B5280352D80016308B /* BookDetailsViewController.swift in Sources */,
+				45F1A2D9280B773100EE5FC4 /* BookDetailsCoordinator.swift in Sources */,
+				4AE0C2AD28034E340016308B /* ListTableViewCell.swift in Sources */,
+				4AE0C2B3280352CA0016308B /* BooksViewController.swift in Sources */,
+				4AE0C2C428035C550016308B /* BookDetails.swift in Sources */,
+				451F527C280E95920007CB13 /* Alert.swift in Sources */,
+				45F1A2DB280B834500EE5FC4 /* BookDetailsViewModel.swift in Sources */,
+				457390C6280D048A005CC5B2 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C28A2803496C0016308B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE0C2932803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE0C2942803496C0016308B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE0C29D2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift in Sources */,
+				4AE0C29F2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AE0C2902803496C0016308B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE0C274280349660016308B /* KeskoSenukaiDigitalTask */;
+			targetProxy = 4AE0C28F2803496C0016308B /* PBXContainerItemProxy */;
+		};
+		4AE0C29A2803496C0016308B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AE0C274280349660016308B /* KeskoSenukaiDigitalTask */;
+			targetProxy = 4AE0C2992803496C0016308B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AE0C27E280349660016308B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE0C27F280349660016308B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AE0C2862803496C0016308B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AE0C2872803496C0016308B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AE0C2A02803496C0016308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AE0C2A12803496C0016308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AE0C2A32803496C0016308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeskoSenukaiDigitalTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AE0C2A42803496C0016308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeskoSenukaiDigitalTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AE0C2A62803496C0016308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeskoSenukaiDigitalTask.app/KeskoSenukaiDigitalTask";
+			};
+			name = Debug;
+		};
+		4AE0C2A72803496C0016308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeskoSenukaiDigitalTask.app/KeskoSenukaiDigitalTask";
+			};
+			name = Release;
+		};
+		4AE0C2A92803496C0016308B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeskoSenukaiDigitalTask;
+			};
+			name = Debug;
+		};
+		4AE0C2AA2803496C0016308B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMZBV5976W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lilyK.KeskoSenukaiDigitalTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeskoSenukaiDigitalTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AE0C270280349660016308B /* Build configuration list for PBXProject "KeskoSenukaiDigitalTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE0C2A02803496C0016308B /* Debug */,
+				4AE0C2A12803496C0016308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE0C2A22803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE0C2A32803496C0016308B /* Debug */,
+				4AE0C2A42803496C0016308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE0C2A52803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE0C2A62803496C0016308B /* Debug */,
+				4AE0C2A72803496C0016308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AE0C2A82803496C0016308B /* Build configuration list for PBXNativeTarget "KeskoSenukaiDigitalTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE0C2A92803496C0016308B /* Debug */,
+				4AE0C2AA2803496C0016308B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AE0C281280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AE0C282280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodel */,
+			);
+			currentVersion = 4AE0C282280349660016308B /* KeskoSenukaiDigitalTask.xcdatamodel */;
+			path = KeskoSenukaiDigitalTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AE0C26D280349660016308B /* Project object */;
+}

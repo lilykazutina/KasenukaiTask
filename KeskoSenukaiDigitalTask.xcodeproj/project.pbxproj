@@ -71,9 +71,6 @@
 		4AE0C2842803496C0016308B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE0C2872803496C0016308B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE0C2892803496C0016308B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AE0C2922803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskTests.swift; sourceTree = "<group>"; };
-		4AE0C29C2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskUITests.swift; sourceTree = "<group>"; };
-		4AE0C29E2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeskoSenukaiDigitalTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4AE0C2AC28034E340016308B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		4AE0C2AE280351A10016308B /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 		4AE0C2B2280352CA0016308B /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				4AE0C277280349660016308B /* KeskoSenukaiDigitalTask */,
-				4AE0C2912803496C0016308B /* KeskoSenukaiDigitalTaskTests */,
-				4AE0C29B2803496C0016308B /* KeskoSenukaiDigitalTaskUITests */,
 				4AE0C276280349660016308B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,23 +168,6 @@
 				457390C5280D048A005CC5B2 /* Extensions.swift */,
 			);
 			path = KeskoSenukaiDigitalTask;
-			sourceTree = "<group>";
-		};
-		4AE0C2912803496C0016308B /* KeskoSenukaiDigitalTaskTests */ = {
-			isa = PBXGroup;
-			children = (
-				4AE0C2922803496C0016308B /* KeskoSenukaiDigitalTaskTests.swift */,
-			);
-			path = KeskoSenukaiDigitalTaskTests;
-			sourceTree = "<group>";
-		};
-		4AE0C29B2803496C0016308B /* KeskoSenukaiDigitalTaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4AE0C29C2803496C0016308B /* KeskoSenukaiDigitalTaskUITests.swift */,
-				4AE0C29E2803496C0016308B /* KeskoSenukaiDigitalTaskUITestsLaunchTests.swift */,
-			);
-			path = KeskoSenukaiDigitalTaskUITests;
 			sourceTree = "<group>";
 		};
 		4AE0C2AB28034E110016308B /* Cells */ = {
